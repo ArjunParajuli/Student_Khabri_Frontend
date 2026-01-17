@@ -1,4 +1,4 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://student-khabri-backend-1.onrender.com/';
 
 export const fetcher = async (url: string, options: RequestInit = {}) => {
     const res = await fetch(`${API_URL}${url}`, {
