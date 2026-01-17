@@ -1,4 +1,4 @@
-const API_URL = 'https://student-khabri-backend-1.onrender.com';
+const API_URL = 'https://student-khabri-backend-1.onrender.com/api';
 
 export const fetcher = async (url: string, options: RequestInit = {}) => {
     const res = await fetch(`${API_URL}${url}`, {
